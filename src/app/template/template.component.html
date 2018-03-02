@@ -11,35 +11,35 @@
 		<div class="collapse navbar-collapse" id="navbarCollapse">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item">
-					<a class="nav-link hide-on-click" href="#section1">O MNIE</a>
+					<a class="nav-link hide-on-click" href="#section1">ABOUT ME</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link hide-on-click" href="#section2">UMIEJĘTNOŚCI</a>
+					<a class="nav-link hide-on-click" href="#section2">SKILLS</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link hide-on-click" href="#section3">DOŚWIADCZENIE</a>
+					<a class="nav-link hide-on-click" href="#section3">EXPERIENCE</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link hide-on-click" href="#section4">PROJEKTY</a>
+					<a class="nav-link hide-on-click" href="#section4">PROJECTS</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link hide-on-click" href="#section5">KONTAKT</a>
+					<a class="nav-link hide-on-click" href="#section5">CONTACT</a>
 				</li>
 				<li class="nav-item" *ngIf="authService.user | async">
 					<a class="nav-link" routerLink="blog" routerLinkActive="active">BLOG</a>
 				</li>
-				<li class="nav-item" *ngIf="authService.user | async">
+				<!-- <li class="nav-item" *ngIf="authService.user | async">
 					<a class="nav-link" routerLink="dashboard" routerLinkActive="active">
 						ZARZĄDZAJ
 					</a>
-				</li>
+				</li> -->
 				<li class="nav-item dropdown">
 					<a class="nav-link" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						<i class="fa fa-sign-in" aria-hidden="true"></i>
 					</a>
 					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
 						<div class="container-fluid">
-							<app-firebase-auth></app-firebase-auth>
+							<!-- <app-firebase-auth></app-firebase-auth> -->
 						</div>
 					</div>
 				</li>
@@ -51,10 +51,10 @@
 	<router-outlet></router-outlet>
 	<div class="cookie-warning hidden">
 		<div class="cookie-warning-text text-justify">
-			Strona wykorzystuje pliki cookies oraz podobne technologie m.in. w celach statystycznych.
-			<a href="http://wszystkoociasteczkach.pl/" target="_blank" rel="noopener">Dowiedz się więcej</a>
+			Annoying looking notification box.
+			<a href="http://wszystkoociasteczkach.pl/" target="_blank" rel="noopener">Hyperlink box</a>
 			<div class="row mx-auto justify-content-center pt-3">
-				<button class="btn btn-primary btn-cookie-warning">Zrozumiałem</button>
+				<button class="btn btn-primary btn-cookie-warning">Close</button>
 			</div>
 		</div>
 	</div>
@@ -66,11 +66,11 @@
 		</a>
 	</div>
 	<div class="container copyrights">
-		&copy; twistezo, 2017
+		&copy; dottry, 2017
 	</div>
 	<div class="pt-3">
-		<a href="mailto:kolkolukasz@gmail.com">Mail <i class="icon fa fa-envelope"></i></a>
-		<a href="http://www.linkedin.com/in/lukaszkolko/" target="_blank" rel="noopener">Linkedin <i class="icon fa fa-linkedin-square"></i></a>
-		<a href="http://github.com/twistezo" target="_blank" rel="noopener">Github <i class="icon fa fa-github-alt"></i></a>
+		<a href="mailto:o.otuto@gmail.com">Mail <i class="icon fa fa-envelope"></i></a>
+		<a href="https://www.linkedin.com/in/binh-tran-61349abb/" target="_blank" rel="noopener">Linkedin <i class="icon fa fa-linkedin-square"></i></a>
+		<a href="http://github.com/dottry" target="_blank" rel="noopener">Github <i class="icon fa fa-github-alt"></i></a>
 	</div>
 </footer>
