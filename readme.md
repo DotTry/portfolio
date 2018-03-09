@@ -1,8 +1,7 @@
 ## Portfolio
-[![Build Status](https://travis-ci.org/twistezo/portfolio.svg?branch=master)](https://travis-ci.org/twistezo/portfolio)
 
 ### Description
-My personal portfolio with management dashboard and blog (both are hidden for unregistered users)
+My personal portfolio written in Angular CLI and deployed on github pages.
 
 ### Tools
 Angular 4 (JS + TypeScript), Bootstrap 4, Firebase
@@ -30,4 +29,4 @@ firebase deploy
 ```
 
 ### Latest version
-https://twistezo.github.io/portfolio
+https://dottry.github.io/portfolio
