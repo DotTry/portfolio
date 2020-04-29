@@ -32,7 +32,7 @@
     "firebase": "3.6.6",
     "font-awesome": "4.7.0",
     "ionicons": "3.0.0",
-    "jquery": "3.2.1",
+    "jquery": "3.5.0",
     "jquery-circle-progress": "1.2.2",
     "popper.js": "1.11.0",
     "promise-polyfill": "6.0.2",
